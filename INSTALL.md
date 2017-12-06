@@ -30,9 +30,9 @@ below.
    or something similar to resolve problems.
 
    For the purposes of this demo, the packages are built with an override
-   for the %{_prefix} macro.  It's set to '/opt/$ID/%{name}/%{version}'
-   where ID comes from /etc/os-release.  For Fedora systems, this is
-   'fedora', for RHEL it's 'rhel', and for CentOS it's 'centos'.  The
+   for the **%{_prefix}** macro.  It's set to **/opt/$ID/%{name}/%{version}**
+   where ID comes from _/etc/os-release_.  For Fedora systems, this is
+   **fedora**, for RHEL it's **rhel**, and for CentOS it's **centos**.  The
    name and version values come from the package itself.  This sets up
    each package to be self-contained in its own tree in /opt.
 
