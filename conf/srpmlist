@@ -1,0 +1,16 @@
+# Source packages to download for this demo.  The bracketed sections
+# indicate a subdirectory to write the packages to in the cache directory.
+
+[f27]
+http://dl.fedoraproject.org/pub/fedora/linux/releases/27/Everything/source/tree/Packages/g/glib2-2.54.1-1.fc27.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/27/Everything/source/tree/Packages/l/libpng-1.6.31-1.fc27.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/27/Everything/source/tree/Packages/n/ncurses-6.0-13.20170722.fc27.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/27/Everything/source/tree/Packages/o/openssl-1.1.0f-9.fc27.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/27/Everything/source/tree/Packages/z/zlib-1.2.11-4.fc27.src.rpm
+
+[f25]
+http://dl.fedoraproject.org/pub/fedora/linux/releases/25/Everything/source/tree/Packages/g/glib2-2.50.1-1.fc25.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/25/Everything/source/tree/Packages/l/libpng-1.6.23-1.fc25.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/25/Everything/source/tree/Packages/n/ncurses-6.0-6.20160709.fc25.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/25/Everything/source/tree/Packages/o/openssl-1.0.2j-1.fc25.src.rpm
+http://dl.fedoraproject.org/pub/fedora/linux/releases/25/Everything/source/tree/Packages/z/zlib-1.2.8-10.fc24.src.rpm
