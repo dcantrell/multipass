@@ -30,7 +30,7 @@ build: fetch
 	$(MK)/build.sh
 
 clean:
-	-rm -rf $(REPO)
+	-sudo rm -rf $(REPO)
 
 realclean: clean
 	-rm -rf $(SRPMCACHE)
