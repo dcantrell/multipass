@@ -44,18 +44,18 @@ find "${SRPMCACHE}" -type f -name "*.src.rpm" | while read srpm ; do
 done
 
 # Don't care about the log files
-rm -f "${REPO}/*.log"
+rm -f ${REPO}/*.log
 
 # Sort packages in to logical repos
-mkdir -p "${REPO}/source"
-mkdir -p "${REPO}/debug"
-mkdir -p "${REPO}/${MACH}"
-mv -v "${REPO}/*-debuginfo*rpm" "${REPO}/debug"
-mv -v "${REPO}/*-debugsource*rpm" "${REPO}/debug"
-mv -v "${REPO}/*.src.rpm" "${REPO}/source"
-mv -v "${REPO}/*.rpm" "${REPO}/${MACH}"
+mkdir -p ${REPO}/source
+mkdir -p ${REPO}/debug
+mkdir -p ${REPO}/${MACH}
+mv -v ${REPO}/*-debuginfo*.rpm ${REPO}/debug
+mv -v ${REPO}/*-debugsource*.rpm ${REPO}/debug
+mv -v ${REPO}/*.src.rpm ${REPO}/source
+mv -v ${REPO}/*.rpm ${REPO}/${MACH}
 
 # Create repo metadata
-createrepo -v -p "${REPO}/debug"
-createrepo -v -p "${REPO}/source"
-createrepo -v -p "${REPO}/${MACH}"
+createrepo -v -p ${REPO}/debug
+createrepo -v -p ${REPO}/source
+createrepo -v -p ${REPO}/${MACH}
